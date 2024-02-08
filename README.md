@@ -1,4 +1,4 @@
-## Todo-list em React
+## Todo-list em Next.Js
 
 Este é um projeto simples de lista de tarefas desenvolvido em React, criado como parte do desafio técnico para um processo seletivo de desenvolvedor. 
 
