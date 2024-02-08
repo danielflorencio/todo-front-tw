@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="flex flex-col md:flex-row w-full h-full">
+          <nav className="w-full md:w-1/4 md:h-screen flex items-center justify-center md:text-4xl bg-purple-600 text-white font-bold text-center py-3 text-xl">My Todo List</nav>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
